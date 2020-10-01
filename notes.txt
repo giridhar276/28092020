@@ -1,0 +1,148 @@
+Python IDE
+------------
+
+anaconda-spyder IDE
+IDLE
+pycharm ( just like eclipse)
+vi editor ( linux)
+
+
+langauges used for ML
+-----------------------
+python
+R
+SAS
+Golang
+
+
+
+
+
+*** Everything in Python is Object ***
+****** Every object contains set of methods ********
+
+
+comments
+-----------
+
+single line comment : It starts with # symbol.
+
+
+multi line comment : All the lines defined in between ''' and ''' are ignored by interpreter.
+
+
+
+objects
+--------
+
+
+number
+-------
+number can be integer or decimal value or octal or hexadecimal.
+
+val = 34
+aval =45433.2
+
+
+
+string
+-------
+string can be defined in single or double or triple quotes.
+Every string has internal idexing starts with 0
+
+aname = 'hadoop administration'
+bname = "java programming"
+cname = """scala programming"""
+
+
+list ( array in C )(mutable)
+-----
+list contains set of elements.
+Elements can be set of numbers or set of strings or any combination.
+Elements are defined in [].
+
+alist = [10,20,30,40]
+blist = ['perl','hadoop','spark','scala']
+clist = [34,5,45.4,"java","oracle","unix"]
+
+
+
+tuple  ( read only , immutable , unchangable)
+------
+tuple contains set of elements.
+Elements can be set of numbers or set of strings or any combination.c
+Elements are defined in ().
+****************  Elements inside tuple cannot be modified directly *******************
+
+atup = (45,5,34,5)
+btup = ('java','python','c')
+ctup = (45,67,54.4,"hadop",45)
+
+
+
+dictionary or hash or map 
+-----------------------------
+dictionary contains elements in key-value pairs
+dictionary elements are defined in {}.
+In dictionary... keys are always UNIQUE
+In dictionary ... keys will be either string OR number to uniquely identify the value.
+                  values will be either number or string or list or tuple or dictionary.
+
+syntax:       object = { key:value , key:value , key:value }
+
+example:       book  = {"chap1": 10 , "chap2":20 ,"chap3":30 ,"chap1":1000}    
+                                        
+               data  = {10:20 ,30:40 ,50:60}
+
+               info  = {"chap1":[10,'Rita','US'] , "chap2":[20,'Gita','UK'] ,"chap3":[30,'Paul','AUS'] } # dictionary of lists
+
+              infodoc= {"emp1":{"name":'Ram','address':'US'} ,"emp2":{"name":"rao","address":UK"}   }    # dictionary of dictionaries
+
+
+
+
+
+set:
+-----
+Set is UNORDERED COLLECCTIO OF UNIQUE elemnts of same type.
+
+
+aset {10,10,10,20,20,20,20,20,20,30}
+print(set)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
