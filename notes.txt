@@ -104,11 +104,350 @@ example:       book  = {"chap1": 10 , "chap2":20 ,"chap3":30 ,"chap1":1000}
 
 set:
 -----
-Set is UNORDERED COLLECCTIO OF UNIQUE elemnts of same type.
+Set is UNORDERED COLLECCTION OF UNIQUE elemnts of same type.
 
 
 aset {10,10,10,20,20,20,20,20,20,30}
 print(set)
+
+
+
+
+
+
+
+functions & methods
+---------------------
+
+methods :   methods are  object specific.
+            Every object has its own different methods.
+            methods are accessed with . operator
+
+functions: functions are common for all the objects.
+
+
+
+frequently used builtin functions
+----------------------------------
+print()
+input()
+id()
+range()
+len()
+help()
+dir()
+isinstance()
+type()
+min()
+max()
+sum()
+zip()
+map()
+filter()
+
+
+
+conversion functions (  typecasting functions)
+----------------------------------------------
+int()
+float()
+hex()
+oct()
+str()
+list()
+tuple()
+dict()
+set()
+
+
+
+How to display all the builtin functions
+----------------------------------------
+In the console type the below
+
+dir(__builtins__)
+
+
+
+statements 
+-----------
+
+
+conditional statements
+---------------------
+
+if 
+if-else
+if-elif-elif-elif.....else
+
+
+
+control statements
+---------------------
+for
+while
+
+
+
+jump statements
+---------------
+break
+continue
+
+
+
+
+operators
+-----------
+
+
+
+Arithmetic operators :  + - * %  /
+
+assignment operators :  (++ and -- are NOT allowed in python)
+
+ =  +=    -=    *+
+
+
+val = 10
+val +=1   (or)  val = val + 1
+val -=1   (or)  val = val - 1
+
+
+
+logical operators
+---------------
+and              Eg:    if val > 10  and val < 100                          # both should be true
+or               Eg:    if len(name) == 5  or name.isupper():               # either of the condition should be true
+not
+
+relational operators :
+-------------------------
+<   <=   >   >=    ==    !=
+
+
+special operators :
+-------------------
+
+in                ( for loop and  if condition)
+as
+
+
+
+
+
+
+
+
+
+
+
+
+
+write a program to read some filename from the keyboard(customers.csv) and display its filename and extension separately.
+
+Input:
+Enter any filename :  customers.csv
+
+Output:
+filename : customers
+extension: csv
+
+
+
+Input:
+Enter any filename :  info.txt
+
+Output:
+filename : info
+extension: txt
+
+--------------------------------------------------------
+
+list = [10,10,10,20,30,40,40,40]
+write a program to remove the duplicates from the list.
+
+Output:
+[10,20,30,40]
+
+--------------------------------------------------------
+
+alist = [10,10,10,20,30]
+blist = [30,40,50,50,50]
+
+write a program to display
+- all unique elements of both alist and blist
+- common elements of both alist and blist
+--------------------------------------------------------
+
+write a program to display the below output
+
+192.168.0.1
+192.168.0.2
+192.168.0.3
+..
+..
+192.168.0.10
+--------------------------------------------------------
+
+ Define some list as below
+
+alist = ["google","oracle","microsoft"]
+
+
+Output:
+http://www.google.com
+http://www.oracle.com
+http://www.microsoft.com
+
+--------------------------------------------------------
+
+file handling
+------------
+
+
+txt             ---------
+doc docx
+xlsx xls
+jpg gif 
+pdf
+zip
+rar
+tar
+tar.gz
+json
+xml
+mp3 mp4
+log            ---------
+csv            ---------
+ppt pptx
+conf            ---------
+.properties     ---------
+
+
+
+- working with flat files  (  txt csv conf log )
+--------------------------
+the files can be directly
+
+- working with third party files  ( xlsx pdf docx .... )
+---------------------------------
+- requires some third party files
+- In python, we can create/read/write third party files also using libraries
+
+
+
+Working with flat files 
+-----------------------
+- read   ( r )
+- write  ( w )
+- append ( a )
+
+
+opening the file
+-----------------
+
+syntax:  object = open(filename,mode)
+example:   fobj = open("customers.txt","r")     # read mode
+           case1: If the file is not existing, it will throw error
+           case2: If the file is existing, it will read the file
+
+           fobj = open("customers.txt","w")     # write mode
+	   case1: If the file is not existing, it will create the file
+           case2: If the file is already existing, it will overwrite the file
+
+           fobj = open("customers.txt","a")     # read mode
+	   case1: If the file is not existing, it will create the file
+           case2: If the file is already existing, it will apppend the data at the file
+
+
+
+closing the file
+-----------------
+fobj.close()
+
+
+
+
+write a program to write all the numbers from 1 to 100 to the file.
+
+write a program to capture your name from the keyboard and write the output to the file
+
+write a program to write all the odd numbers from 100 to 1 to the file.
+
+write a program  to reverse the string 'python programming' and write the output to the file
+
+write a program to write all the even numbers from 100 to 1 to the file.
+
+
+read operation
+-----------------
+- reading the file line by line
+- reading the file using readlines()
+- reading the file using read()
+- reading the file using csv library
+- reading the file using  pandas library
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
